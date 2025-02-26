@@ -7,11 +7,9 @@ import LibraryHours from './pages/LibraryHours';
 import LibraryStaff from './pages/LibraryStaff';
 import ContactUs from './pages/Contactus'; 
 import SearchBook from './Components/SearchBook';
-
 import { AuthProvider } from './Utils/AuthContext';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
-
 import UserLoginSignUp from './Components/UserLoginSignUp';
 import './assets/Library1.jpg';
 import './assets/Library2.jpg';
@@ -43,9 +41,8 @@ const App = () => {
               <Route path="/library-staff" element={<LibraryStaff />} />
               <Route path="/contact" element={<ContactUs />} /> {/* Updated to use the ContactUs component */}
               <Route path="/search-book" element={<SearchBook />} />
-             
+              
               <Route path="/user-login-signup" element={<UserLoginSignUp />} />
-    
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
