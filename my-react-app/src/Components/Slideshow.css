@@ -1,0 +1,33 @@
+.search-book-container {
+    padding: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .category-box {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .category-box:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .button-row button {
+    margin-right: 10px;
+  }
+  

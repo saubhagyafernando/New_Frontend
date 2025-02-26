@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px; /* Smaller width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0.1px; /* Space between logo and text */
+  }
+  
+  .menu {
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+  }
+  
+  .menu a {
+    color: rgb(228, 227, 240);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+    
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  .logo-container {
+    display: flex;
+    align-items: left;
+    max-width: 2%;
+  }
+  
+  
