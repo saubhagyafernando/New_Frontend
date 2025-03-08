@@ -11,6 +11,7 @@ import { AuthProvider } from './Utils/AuthContext';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
 import UserLoginSignUp from './Components/UserLoginSignUp';
+import Downloads from './pages/Downloads';
 import './assets/Library1.jpg';
 import './assets/Library2.jpg';
 import './assets/Library3.jpg';
@@ -41,7 +42,7 @@ const App = () => {
               <Route path="/library-staff" element={<LibraryStaff />} />
               <Route path="/contact" element={<ContactUs />} /> {/* Updated to use the ContactUs component */}
               <Route path="/search-book" element={<SearchBook />} />
-              
+              <Route path="/downloads" element={<Downloads />} />
               <Route path="/user-login-signup" element={<UserLoginSignUp />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
