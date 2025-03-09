@@ -23,8 +23,12 @@ import './assets/Library8.jpg';
 import './assets/Library9.jpg';
 import './assets/Library10.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const App = () => {
+  // Replace this with your WhatsApp group link
+  const whatsappGroupLink = 'https://chat.whatsapp.com/FQWirG4OtfsGqxJxCUHzNy'; // Update with actual group link
+
   return (
     <AuthProvider>
       <Router>
@@ -48,6 +52,12 @@ const App = () => {
             </Routes>
           </div>
           <Footer />
+          {/* Floating WhatsApp Chat Box */}
+          <div className="whatsapp-chat-box">
+            <a href={whatsappGroupLink} target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp size={60} color="white" />
+            </a>
+          </div>
         </div>
       </Router>
     </AuthProvider>
